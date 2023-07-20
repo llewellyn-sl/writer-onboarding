@@ -16,7 +16,9 @@ export default defineConfig({
           label: 'Guides',
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: 'Example Guide', link: '/guides/example/' },
+            { label: 'Tower MkDocs project', link: '/guides/tower-docs/mkdocs.md',
+              label: 'Publish Tower docs', link: '/guides/tower-docs/publish.md',
+              label: 'Style elements', link: '/guides/tower-docs/style.md' },
           ],
         },
         {
