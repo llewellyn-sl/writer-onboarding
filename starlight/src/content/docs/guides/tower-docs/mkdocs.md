@@ -7,11 +7,11 @@ The [Tower docs](https://help.tower.nf) site is built on a [MkDocs Material](htt
 
 The source of truth for the Markdown files that form the documentation is the [docs folder](https://github.com/seqeralabs/nf-tower-cloud/tree/master/docs) of the nf-tower-cloud repo. This is a private repo that contains the source code of the Tower application. While the Tower docs were originally entirely in the nf-tower-docs repo, we moved the `.md` content and `mkdocs.yml` configuration file to the nf-tower-cloud repo to maintain the documentation close to the source code of the application. This encourages engineers and other internal stakeholders to contribute to the documentation during the Tower feature building process. 
 
-While we track [issues](https://github.com/seqeralabs/nf-tower-docs/issues) on the nf-tower-docs repo to evaluate fixes and improvements needed on the docs site, all content contributions must be made on a feature branch in the docs folder on nf-tower-cloud. Pull requests raised for files in the docs folder are reviewed by a member of the `tower-docs-codeowners` team and an engineer or other SME closely related to the feature being documented. 
+While we track [issues](https://github.com/seqeralabs/nf-tower-docs/issues) on the nf-tower-docs repo to evaluate fixes and improvements needed on the docs site, all content contributions must be made on a feature branch in the docs folder on nf-tower-cloud. Pull requests raised for files in the docs folder are reviewed by a member of the `tower-docs-codeowners` team and the engineer or other SME most familiar with the feature being documented. 
 
-When documentation PRs are reviewed and merged to the master branch on nf-tower-cloud, a [GitHub workflow](https://github.com/seqeralabs/nf-tower-cloud/blob/master/.github/workflows/docs_deploy.yml) copies the docs folder to the master branch of the nf-tower-docs repo so that contant updates can be published manually from there. 
+When documentation PRs are reviewed and merged to the master branch on nf-tower-cloud, a [GitHub workflow](https://github.com/seqeralabs/nf-tower-cloud/blob/master/.github/workflows/docs_deploy.yml) copies the docs folder to the master branch of the nf-tower-docs repo so that content updates can be published manually from there. 
 
-Once the latest from nf-tower-cloud has been merged to master and the docs-deploy workflow has successfully copied the content across to nf-tower-docs, we can publish new content to the staging URL for final sanity checks before publishing to the master site. 
+Once the PR has been merged to master in nf-tower-cloud and the docs-deploy workflow has successfully copied the content across to nf-tower-docs, we can [publish](./publish.md) new content to the master site. 
 
 The site theme currently uses [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and Material-insiders. 
 

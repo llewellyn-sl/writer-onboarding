@@ -3,9 +3,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://github.com/llewellyn-sl',
+  base: '/writer-onboarding',
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: 'Seqera Writer Internal KB',
       social: {
         github: 'https://github.com/withastro/starlight',
       },
