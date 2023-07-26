@@ -3,7 +3,7 @@ title: Tower documentation publishing process
 description: Instructions to publish content updates to help.tower.nf
 ---
 
-This page details how to publish content updates to the [live site](https://help.tower.nf) once new content has been successfully pushed to [nf-tower-docs](https://github.com/seqeralabs/nf-tower-docs). See [Contribution](./mkdocs.md) for content contribution guidelines. 
+This page details how to publish content updates to the [live site](https://help.tower.nf) once new content has been successfully pushed to [nf-tower-docs](https://github.com/seqeralabs/nf-tower-docs). See [MkDocs](./mkdocs.md) for content contribution guidelines, and [Style](./style.md) for the Markdown elements used in the Tower docs project. 
 
 This guide assumes you have completed the [Docker build instructions](https://github.com/seqeralabs/nf-tower-cloud/blob/master/docs/README.md) to set up your local environment. 
 
