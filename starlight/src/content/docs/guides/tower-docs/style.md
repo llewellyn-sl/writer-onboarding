@@ -3,7 +3,12 @@ title: Tower documentation style
 description: Style elements and rules used in the Tower docs MkDocs project
 ---
 
-The site theme is based on [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and Material-insiders. 
+The site theme is based on [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and Material-insiders. Material-insiders requires access to the [Seqera Gitea](https://git.seqera.io/) repository. Once your account has been created, generate an access token to use in your local [MkDocs](./mkdocs.md) build:
+
+1. Select **Settings** from the user top-right drop-down menu.
+2. Select the **Applications** tab.
+3. Under **Generate New Token**, enter a token name and select **Generate Token**. 
+4. Store this token as a `GITEA_TOKEN` environment variable on your machine. 
 
 We favor [GitHub-flavored Markdown](https://github.github.com/gfm/). 
 
