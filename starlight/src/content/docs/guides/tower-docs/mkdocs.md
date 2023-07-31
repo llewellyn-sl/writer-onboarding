@@ -13,7 +13,7 @@ When documentation PRs are reviewed and merged to the master branch on nf-tower-
 
 Once the PR has been merged to master in nf-tower-cloud and the docs-deploy workflow has successfully copied the content across to nf-tower-docs, we can [publish](./publish.md) to the master site. 
 
-The Tower documentation project relies on [mike](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/) for content versioning, [Material-insiders](https://git.seqera.io/) for a number of custom theme features and social cards, and a number of MkDocs plugins (source: [docs README](https://github.com/seqeralabs/nf-tower-cloud/blob/master/docs/README.md)).
+The Tower documentation project relies on [mike](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/) for content versioning, [Material-insiders](https://git.seqera.io/) for custom theme features and social cards, and a number of MkDocs plugins.
 
 - Material-insiders requires access to the [Seqera Gitea](https://git.seqera.io/) repository. Once your account has been created, generate an access token to use in your local [MkDocs](./mkdocs.md) build:
 
@@ -24,7 +24,7 @@ The Tower documentation project relies on [mike](https://squidfunk.github.io/mkd
 
 - [mike](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/) enables a version selector on the Tower docs site. The Tower version is specified and the version selector is configured each time the docs are published. See [Publish](./publish.md) for details. 
 
-### MkDocs plugins
+## MkDocs plugins
 
 - [mkdocs-table-reader-plugin](https://timvink.github.io/mkdocs-table-reader-plugin/)
     - Insert tables (CSV, YML, etc.) directly into markdown pages using a tag.
